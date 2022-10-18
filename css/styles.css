@@ -225,6 +225,10 @@ a {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.button-hero-icon:hover {
+    fill: var(--bluebrand-clor);
+}
+
 .modal {
     width: 528px;
     min-height: 581px;
@@ -276,7 +280,7 @@ a {
     border-radius: 4px;
     font-size: 14px;
     color: rgba(117, 117, 117, 1);
-    padding-left: 25px;
+    padding-left: 30px;
 }
 
 .modal-input-icon {
@@ -773,6 +777,43 @@ a {
 .footer-soc-icon {
     fill: #FFFFFF;
     
+}
+
+.subscribe {
+    padding-left: 900px;
+    margin-top: -132px;
+}
+
+
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+    
+}
+
+.input-footer {
+    width: 358px;
+    height: 50px;
+    left: 815px;
+    top: 2784px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+}
+
+.subscribe-button {
+    color: #FFFFFF;
+    background-color: var(--bluebrand-clor);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
 }
 
 .marg-button {
