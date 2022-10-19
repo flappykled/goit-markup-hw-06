@@ -395,30 +395,32 @@
                         </li>
                     </ul>
                 </div>
+                <div class="subscribe">
+                    <div class="subscribe-item">
+                        <h2 class="subscribe-title">Підпишіться на розсилку</h2>
+                    </div>
+                    <form class="footer-form">
+                        <input 
+                        type="footer-email" 
+                        class="input-footer" 
+                        name="footer-email" 
+                        placeholder="E-mail" 
+                        id="foote-email"
+                        >
+                        <button type="submit" class="subscribe-button">Підписатися
+                            <svg class="subscribe-icon" width="24" height="24">
+                                <use href="./images/icon.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
           </div>
-          <div class="subscribe">
-            <div class="vid">
-                <h2 class="subscribe-title">Підпишіться на розсилку</h2>
-            </div>
-            <form class="footer-form">
-                <input 
-                type="email"
-                class="input-footer"
-                name="footer-email"
-                id="footer-email"
-                placeholder="E-mail"
-                >
-                <button type="submit" class="subscribe-button">Підписатися</button>
-            </form>
-          </div>
+          
     </footer>
-    <div div class="backdrop is-hidden" data-modal><svg class="" width="24" height="24">
-        <use></use>
-    </svg>
+    <div div class="backdrop is-hidden" data-modal>
         <div class="modal">
-    
-            <button type="button" class="button-look" data-modal-close><svg class="button-hero-icon" width="11px"
-                    height="11px">
+            <button type="button" class="button-look" data-modal-close>
+                <svg class="button-hero-icon" width="11px" height="11px">
                     <use href="./images/x.svg#icon-Vector"></use>
                 </svg></button>
                 <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
@@ -484,12 +486,13 @@
                                         <use href="./images/icon.svg#icon-Vector"></use>
                                     </svg>
                                 </span>
-                                Погоджуюся з розсилкою та приймаю Умови договору</label>
+                                <p class="chek-agree">Погоджуюся з розсилкою та приймаю</p><a href="/" class="check-link">Умови договору</a>
+                            </label>
                         </div>
                         <button type="submit" class="button-modal-button">Відправити</button>
                 </form>
         </div>
-    </div>
+    
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
