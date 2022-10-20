@@ -1,4 +1,4 @@
-body {
+/* body {
 font-family: 'Roboto', sans-serif;
 background-color: #fff;
 color: #757575;
@@ -17,7 +17,7 @@ ul {
 
 a {
     text-decoration: none;
-}
+} */
 /* logo*/
 
 .web {
@@ -259,6 +259,11 @@ a {
     cursor: pointer;
 }
 
+.button-look:hover {
+    fill: var(--bluebrand-clor);
+    transition: fill 250ms ease-in-out;
+}
+
 .modal-title {
     font-weight: 700;
     font-size: 20px;
@@ -420,6 +425,7 @@ a {
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
+    margin-top: 30px;
 }
 
 .button-modal-button:hover,
@@ -949,7 +955,13 @@ a {
     border: none;
 }
 
+.project-bottom-link {
+    display: block;
+}
 
+.project-bottom-link:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .project-item:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
